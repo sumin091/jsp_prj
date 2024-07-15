@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<msgs>
+	<msg>안녕하세요?</msg>
+	<msg>Hello XML!</msg>
+	<!--  <msg>Hello XML!</Msg> : 노드는 대소문자 구분한다. -->
+	<!--  <msg>Hello XML! 시작노드와 종료노드는 반드시 짝을 이뤄야 한다. -->
+	
+</msgs>
+<!-- 부모노드인 <root>가 존재하지 않으면 에러 -->
+<msgs>
+	<msg>안녕하세요?</msg>
+	<msg>Hello XML!</msg>
+</msgs>
+</root>
